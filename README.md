@@ -11,13 +11,23 @@ This is a Python-based voice assistant that can perform various tasks such as re
 - **Email Service:** Sends emails using a configured SMTP server.
 - **Media Playback:** Searches for and plays music/videos from YouTube.
 
-## Installation
+## **Installation**  
+
+1. Clone the repository:  
+   ```sh
+   git clone https://github.com/Deepanshu-DA/Voice_asistant.git
+   ```
+
+2. Install dependencies:  
+   ```sh
+   pip install -r requirements.txt
+
 ### Requirements
 Ensure you have the following installed:
 - Python 3.7+
 - Required Python libraries:
   ```sh
-  pip install speechrecognition pyttsx3 requests smtplib geocoder beautifulsoup4 opencv-python pyaudio psutil
+  speechrecognition pyttsx3 requests smtplib geocoder beautifulsoup4 opencv-python pyaudio psutil
   ```
   *Note:* You may need to install `pyaudio` manually depending on your OS. Use the appropriate package manager.
 
@@ -30,7 +40,7 @@ Before running the assistant, set the following environment variables:
 ## Usage
 Run the script using:
 ```sh
-python assistant.py
+python main.py
 ```
 The assistant will start listening for commands. Some examples:
 - **"What's the weather like?"** - Fetches current weather.
